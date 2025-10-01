@@ -7,6 +7,11 @@ $data = $_REQUEST;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Data Viewer</title>
+    <style>
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; background: white; }
+    th, td { border: 1px solid #333; padding: 10px; }
+    th { background: #ddd; }
+  </style>
 </head>
 <body>
     <h1>Submission Results</h1>
