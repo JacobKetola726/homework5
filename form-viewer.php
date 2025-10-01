@@ -18,12 +18,12 @@ $data = $_REQUEST;
     <table>
         <caption>Submitted Data</caption>
         <tr>
-            <th>Choice</th>
+            <th>Question</th>
             <th>Response</th>
         </tr>
-        <?php foreach ($data as $key => $value): ?>
+        <?php foreach ($data as $key => $response): ?>
             <tr>
-                <td><?= htmlspecialchars($choice)?></td>
+                <td><?= htmlspecialchars($questions)?></td>
                 <td>
                     <?php if (is_array($response)): ?>
                         <ul
