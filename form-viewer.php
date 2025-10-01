@@ -23,7 +23,7 @@ $data = $_REQUEST;
         </tr>
         <?php foreach ($data as $key => $response): ?>
             <tr>
-                <td><?= htmlspecialchars($question)?></td>
+                <td><?= htmlspecialchars($key)?></td>
                 <td>
                     <?php if (is_array($response)): ?>
                         <ul
